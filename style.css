@@ -210,67 +210,118 @@ footer {
 
 
 .starterImg img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 250px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -5px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-    border-right: 1px solid gray;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 3.5vh 1vw;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid gray;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3.5vh 1vw;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    margin-bottom: -40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  margin-bottom: 0px;
+  width: 100%;
+  overflow: auto;
 }
 
 .searchbar {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 1vw;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 50px;
 }
 
-.starterText{
-  margin-top: -630px;
+.starterText {
   margin-left: 50px;
   color: whitesmoke;
   font-size: 30px;
+  margin-top: -1500px;
 }
 
-.starterText h2{
+@media only screen and (max-width: 600px) {
+  .searchbar{
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+.starterText h2 {
   font-size: 30px;
   margin-left: 80px;
-  margin-top: -30px;
+  margin-top: 0px;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 0;
+  }
+
+  .searchbar {
+    margin: 10px 0;
+    font-size: 3vw;
+  }
 
 }
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  margin-bottom: -80px;
+}
+
+.containerHeading{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.containerText{
+  text-align: center;
+  margin: auto;
+  width: 640px;
+  padding: 30px;
+  font-family: 'Lexend Deca', sans-serif;    
+}
+
+@media (max-width: 768px) {
+  .containerText {
+    max-width: 500px; /* Reduce the maximum width of the container on smaller screens */
+  }
+}
+
 
