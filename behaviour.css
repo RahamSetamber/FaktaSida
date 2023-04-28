@@ -1,0 +1,38 @@
+.container-behaviour{
+  width: 100%;
+  height: 337vh;
+  background-color: rgb(137, 145, 143);
+  margin-bottom: -80px;
+}
+
+
+.containerHeading-behaviour{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.containerText-behaviour{
+  margin: auto;
+  width: 640px;
+  padding: 30px;
+  font-family: 'Lexend Deca', sans-serif; 
+  line-height: 1.6;
+     
+}
+
+@media (max-width: 768px) {
+  .containerText-behaviour {
+    max-width: 500px; /* Reduce the maximum width of the container on smaller screens */
+    
+  }
+
+}
+
+@media (max-width: 768px) {
+    .containerText {
+      max-width: 500px; /* Reduce the maximum width of the container on smaller screens */
+    }
+}
+
+
