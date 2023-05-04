@@ -361,11 +361,18 @@ li a:hover:not(.active) {
 
 }
 
-.starterImg{
+.starterImgStart{
+  display: flex;
   width: auto;
   height: 500px;
   background: url(img/meerkat.jpg);
   background-size: cover;
   background-repeat:no-repeat;
   background-position: 100%;
+  align-items: center;
+  justify-content: flex-start;  
+  color: #a19b82;
+  padding: 80px;
+  font-size: 27px;
 }
+
