@@ -365,7 +365,7 @@ li a:hover:not(.active) {
   display: flex;
   width: auto;
   height: 500px;
-  background-image: url(img/meerkat.jpg);
+  background-image: url('img/meerkat.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: 100%;
