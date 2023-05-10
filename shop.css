@@ -21,12 +21,7 @@
     display: block;
     transition: 0.3s;
   }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  
+   
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
