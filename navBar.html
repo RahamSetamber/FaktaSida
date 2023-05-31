@@ -9,16 +9,29 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="meerkat.html">The Meerkat</a></li>
-      <li><a href="behaviour.html">Behaviour</a></li>
-      <li><a href="diet.html">Diet</a></li>
-      <li><a href="threats.html">Threats</a></li>
-      <li><a href="shop.html">Shop</a></li>
-    </ul>  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="meerkat.html">The Meerkat</a>
+    <a href="behaviour.html">Behaviour</a>
+    <a href="diet.html">Diet</a>
+    <a href="threats.html">Threats</a>
+    <a href="shop.html">Shop</a>
+
   </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+        
+  <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+        
+  function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
 
   
 </body>
