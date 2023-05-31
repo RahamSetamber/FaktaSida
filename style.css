@@ -5,39 +5,39 @@
 }
 
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
 
 
 main {
@@ -52,8 +52,9 @@ html {
     background-color: #eaf0f2;
 }
 
+
 @media only screen 
-  and (device-width: 768px) 
+  and (device-width: 1068px) 
   and (device-height: 1024px) 
   and (-webkit-device-pixel-ratio: 2) {
 
@@ -228,7 +229,7 @@ html {
     color: #3F71EA;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
         display: block;
         width: 100%;
@@ -314,7 +315,7 @@ li a:hover:not(.active) {
 }
 
 /* Media query for screens smaller than 768px */
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 150px) {
   .navbar {
     flex-direction: column;
     align-items: stretch;
@@ -350,7 +351,7 @@ li a:hover:not(.active) {
 
 @media (max-width: 1000px) {
   .containerText {
-    max-width: 200px; /* Reduce the maximum width of the container on smaller screens */
+    max-width: 400px; /* Reduce the maximum width of the container on smaller screens */
   }
 
   .starterText {
@@ -411,7 +412,7 @@ li a:hover:not(.active) {
   background-position: 100%;
   align-items: center;
   justify-content: flex-start;  
-  color: #a19b82;
+  color: rgb(216, 218, 177);
   padding: 80px;
   font-size: 27px;
 }
